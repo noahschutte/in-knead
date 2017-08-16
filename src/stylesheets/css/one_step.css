@@ -1,0 +1,79 @@
+.one-step-container {
+  margin-top: 50px; }
+  @media (max-width: 910px) {
+    .one-step-container {
+      margin-top: 0px; } }
+  @media only screen and (max-device-width: 640px) {
+    .one-step-container {
+      min-width: 320px; } }
+  .one-step-container .one-step {
+    max-width: 1024px;
+    height: 620px;
+    margin: auto;
+    overflow: hidden; }
+    @media (max-width: 910px) {
+      .one-step-container .one-step {
+        height: 400px; } }
+    @media only screen and (max-device-width: 640px) {
+      .one-step-container .one-step {
+        height: 950px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden; } }
+    .one-step-container .one-step div {
+      display: inline-block;
+      position: relative; }
+    .one-step-container .one-step .one-step-iphone-container {
+      width: 42.4%;
+      margin-left: 42px;
+      top: 1%; }
+      @media only screen and (max-device-width: 640px) {
+        .one-step-container .one-step .one-step-iphone-container {
+          width: 550px;
+          order: 2;
+          margin-left: -85px;
+          margin-top: 100px; } }
+      .one-step-container .one-step .one-step-iphone-container img {
+        width: 100%; }
+    .one-step-container .one-step .one-step-text-container {
+      display: inline-block;
+      left: 4%;
+      top: 15%;
+      vertical-align: top;
+      width: 380px; }
+      @media (max-width: 910px) {
+        .one-step-container .one-step .one-step-text-container {
+          top: 4%;
+          width: 300px; } }
+      @media only screen and (max-device-width: 640px) {
+        .one-step-container .one-step .one-step-text-container {
+          margin-left: 18px;
+          top: 0;
+          order: 1;
+          width: 269px; } }
+      .one-step-container .one-step .one-step-text-container h2 {
+        font-size: 42px;
+        font-family: UltraBeams; }
+        @media (max-width: 910px) {
+          .one-step-container .one-step .one-step-text-container h2 {
+            font-size: 34px; } }
+      .one-step-container .one-step .one-step-text-container p {
+        font-size: 18px;
+        font-family: 'AvenirNext-Regular';
+        margin-top: 50px;
+        line-height: 24px; }
+        @media (max-width: 910px) {
+          .one-step-container .one-step .one-step-text-container p {
+            margin-top: 20px;
+            font-size: 14px; } }
+        @media only screen and (max-device-width: 640px) {
+          .one-step-container .one-step .one-step-text-container p {
+            margin-top: 50px; } }
+        .one-step-container .one-step .one-step-text-container p:nth-child(n+3) {
+          margin-top: 40px; }
+          @media (max-width: 910px) {
+            .one-step-container .one-step .one-step-text-container p:nth-child(n+3) {
+              margin-top: 20px; } }
+          @media only screen and (max-device-width: 640px) {
+            .one-step-container .one-step .one-step-text-container p:nth-child(n+3) {
+              margin-top: 40px; } }

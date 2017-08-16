@@ -1,0 +1,90 @@
+.platform {
+  height: 675px; }
+  @media (max-width: 910px) {
+    .platform {
+      height: 550px; } }
+  @media only screen and (max-device-width: 640px) {
+    .platform {
+      height: 1400px;
+      min-width: 320px; } }
+  .platform h2 {
+    font-family: UltraBeams;
+    font-size: 42px; }
+    @media only screen and (max-device-width: 640px) {
+      .platform h2 {
+        font-size: 36px; } }
+  .platform .platform-text {
+    margin-top: 100px; }
+    @media (max-width: 910px) {
+      .platform .platform-text {
+        margin-top: 75px; } }
+  .platform .platform-info {
+    font-family: 'AvenirNext-Regular';
+    color: #4A4A4A;
+    width: 620px;
+    font-size: 22px;
+    margin: 0 auto;
+    margin-top: 35px;
+    line-height: 28px; }
+    @media (max-width: 910px) {
+      .platform .platform-info {
+        margin-top: 20px;
+        font-size: 18px;
+        width: 500px; } }
+    @media only screen and (max-device-width: 640px) {
+      .platform .platform-info {
+        width: 309px;
+        font-size: 18px;
+        line-height: 24px; } }
+
+.food-icon-container {
+  text-align: center;
+  margin-top: 80px; }
+  @media (max-width: 910px) {
+    .food-icon-container {
+      margin-top: 20px; } }
+  .food-icon-container .food-descrip-container {
+    display: inline-block;
+    margin-right: 12px;
+    margin-left: 12px;
+    width: 298px; }
+    @media (max-width: 910px) {
+      .food-icon-container .food-descrip-container {
+        width: 150px;
+        margin-right: 20px;
+        margin-left: 20px; } }
+    @media only screen and (max-device-width: 640px) {
+      .food-icon-container .food-descrip-container {
+        margin-top: 80px;
+        width: 277px; } }
+    .food-icon-container .food-descrip-container b p {
+      font-family: 'AvenirNext-Medium';
+      margin-top: 35px;
+      font-size: 22px; }
+      @media (max-width: 910px) {
+        .food-icon-container .food-descrip-container b p {
+          font-size: 16px;
+          margin-top: 15px; } }
+      @media only screen and (max-device-width: 640px) {
+        .food-icon-container .food-descrip-container b p {
+          font-size: 18px;
+          margin-top: 40px; } }
+    .food-icon-container .food-descrip-container p {
+      font-family: 'AvenirNext-Regular';
+      margin-top: 15px;
+      color: #4A4A4A; }
+      @media (max-width: 910px) {
+        .food-icon-container .food-descrip-container p {
+          margin-top: 5px;
+          font-size: 13px; } }
+      @media only screen and (max-device-width: 640px) {
+        .food-icon-container .food-descrip-container p {
+          margin-top: 15px; } }
+    .food-icon-container .food-descrip-container img {
+      height: 124px; }
+      @media (max-width: 910px) {
+        .food-icon-container .food-descrip-container img {
+          height: 75px; } }
+      @media only screen and (max-device-width: 640px) {
+        .food-icon-container .food-descrip-container img {
+          height: 124px; } }

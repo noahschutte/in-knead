@@ -1,0 +1,294 @@
+@font-face {
+  font-family: UltraBeams;
+  src: url('../../fonts/UltraBeams.ttf');
+}
+
+$desktop-med-width: 910px;
+$phone: 640px;
+
+@mixin desktop-med {
+	@media (max-width: #{$desktop-med-width}) {
+		@content;
+	}
+}
+@mixin phone {
+	@media only screen and (max-device-width: #{$phone}) {
+		@content;
+	}
+}
+
+body {
+	margin: 0;
+}
+
+#google-download {
+  margin-left: 20px;
+}
+
+.home-container {
+	background-color: #D0021B;
+	height: 650px;
+	@include desktop-med {
+		height: 475px;
+	}
+	@include phone {
+		height: 1029px;
+		min-width: 320px;
+	}
+	.home {
+		max-width: 1024px;
+		height: 650px;
+		margin: 0 auto;
+		@include desktop-med {
+			height: 475px;
+			max-width: 768px;
+		}
+		@include phone {
+			height: 1029px;
+			max-width: 640px;
+		}
+		.main-text{
+			display: inline-block;
+			position: relative;
+			float: left;
+			clear: left;
+			left: 42px;
+			top: 27%;
+			@include desktop-med {
+				top: 18%;
+			}
+			@include phone {
+				top: 12%;
+				left: 33px;
+			}
+			.headline {
+				width: 550px;
+				@include desktop-med {
+					width: 300px;
+				}
+				@include phone {
+					width: 280px;
+				}
+				h1 {
+					color: white;
+					// font-weight: bold;
+					font-size: 56px;
+					font-family: UltraBeams;
+					margin: 0px 0px 15px 0px;
+					@include desktop-med {
+						font-size: 44px;
+					}
+					@include phone {
+						font-size: 44px;
+					}
+				}
+			}
+			.headline-info-temp {
+				width: 540px;
+				@include desktop-med {
+					width: 300px;
+				}
+				@include phone {
+					width: 260px;
+				}
+				h4 {
+					margin-top: 15px;
+					color: white;
+					font-size: 22px;
+					font-family: 'AvenirNext-Regular';
+					line-height: 24px;
+					@include phone {
+						font-size: 18px;
+					}
+				}
+				p {
+					margin-top: 50px;
+					color: white;
+					font-size: 18px;
+					font-family: 'AvenirNext-Regular';
+					line-height: 24px;
+					@include phone {
+						font-size: 14px;
+					}
+				}
+				@include desktop-med {
+					font-size: 12px;
+				}
+			}
+		}
+		.header-container {
+			position: relative;
+			top: 7%;
+			.logo-container {
+				display: inline-block;
+				position: relative;
+				float: left;
+				left: 48px;
+				// margin: 0 0 0 4%;
+				@include phone {
+					left: 33px;
+				}
+				.logo {
+					height: 50px;
+					@include desktop-med {
+						height: 50px;
+					}
+					@include phone {
+						height: 50px;
+					}
+				}
+			}
+			.social-container {
+				display: inline-block;
+				position: relative;
+				height: 36px;
+				float: right;
+				right: 48px;
+				@include desktop-med {
+					height: 50px;
+				}
+				@include phone {
+					display: none;
+				}
+				.social-icons {
+					margin: 0 0 0 28px;
+					height: 100%;
+				}
+			}
+		}
+		.iphone-container {
+			// height: 83%;
+			position: relative;
+			float: right;
+			clear: right;
+			margin: 0 5% 0 0;
+			top: 17%;
+			width: 34%;
+			height: 75.3%;
+			overflow: hidden;
+			@include desktop-med {
+				width: 235px;
+				margin: 0 6% 0 0;
+				top: 14%;
+				height: 75.4%;
+			}
+			@include phone {
+				// display: none;
+				top: 22%;
+				float: none;
+				clear: none;
+				width: 310px;
+				margin: 0 auto;
+				height: 423px;
+			}
+			.iphone {
+				// overflow: hidden;
+				// height: 500px;
+			}
+		}
+		.email-form-container {
+			// margin-top: 50px;
+			@include desktop-med {
+				margin-top: 30px;
+			}
+			.email-input::-webkit-input-placeholder {
+			  color: white;
+				font-size: 16px;
+				font-family: 'AvenirNext-Regular';
+			}
+			.email-input {
+				background-color: #E67265;
+				-moz-border-radius: 4px;
+				-webkit-border-radius: 4px;
+				border-radius: 4px;
+				padding: 10px 30px;
+				border: none;
+				line-height: 18px;
+				font-size: 16px;
+				color: white;
+			}
+			.white-button {
+				background-color: white;
+				-moz-border-radius: 3px;
+				-webkit-border-radius: 3px;
+				border-radius: 3px;
+				border: none;
+				display: inline-block;
+				cursor: pointer;
+				color: #D0021B;
+				font-family: 'AvenirNext-Regular';
+				font-size: 16px;
+				padding: 10px 50px;
+				line-height: 18px;
+				text-decoration: none;
+			}
+		}
+
+		.download-container {
+			margin-top: 22px;
+			img {
+				height: 53px;
+				@include desktop-med {
+					height: 43px;
+				}
+				@include phone {
+					height: 53px;
+				}
+			}
+			@include desktop-med {
+				margin-top: 30px;
+			}
+			.demo-button {
+				background-color: white;
+				-moz-border-radius: 3px;
+				-webkit-border-radius: 3px;
+				border-radius: 3px;
+				border: none;
+				display: inline-block;
+				cursor: pointer;
+				color: #D0021B;
+				font-family: 'AvenirNext-Regular';
+				font-size: 16px;
+				text-decoration: none;
+				height: 34px;
+				width: 160px;
+				margin-left: 35px;
+				@include phone {
+					display: block;
+					position: relative;
+					top: 22px;
+					left: -33px;
+					height: 38px;
+					width: 192px;
+				}
+			}
+			.learn-button {
+				background-color: #D0021B;
+				-moz-border-radius: 3px;
+				-webkit-border-radius: 3px;
+				border-radius: 3px;
+				border: 3px solid white;
+				display: inline-block;
+				cursor: pointer;
+				color: white;
+				font-family: 'AvenirNext-Regular';
+				font-size: 16px;
+				padding: 7px 56px;
+				text-decoration: none;
+				padding: 10px 40px;
+			}
+		}
+	}
+}
+
+
+
+// bootstrap mods
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+
+// recycle

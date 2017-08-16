@@ -1,0 +1,105 @@
+$desktop-med-width: 910px;
+$phone: 640px;
+
+@mixin desktop-med {
+	@media (max-width: #{$desktop-med-width}) {
+		@content;
+	}
+}
+@mixin phone {
+	@media only screen and (max-device-width: #{$phone}) {
+		@content;
+	}
+}
+
+.one-step-container {
+	margin-top: 50px;
+	@include desktop-med {
+		margin-top: 0px;
+	}
+	@include phone {
+		min-width: 320px;
+	}
+	.one-step {
+		max-width: 1024px;
+		height: 620px;
+		margin: auto;
+		overflow: hidden;
+		@include desktop-med {
+			height: 400px;
+		}
+		@include phone {
+			height: 950px;
+			display: flex;
+			flex-direction: column;
+			overflow: hidden;
+		}
+		div {
+			display: inline-block;
+			position: relative;
+		}
+		.one-step-iphone-container {
+			width: 42.4%;
+			// height: 425px;
+			margin-left: 42px;
+			top: 1%;
+
+			@include phone {
+				width: 550px;
+				order: 2;
+				margin-left: -85px;
+				margin-top: 100px;
+			}
+			img {
+				width: 100%;
+			}
+		}
+		.one-step-text-container {
+			// margin-top: 45px;
+			display: inline-block;
+			left: 4%;
+			top: 15%;
+			vertical-align: top;
+			width: 380px;
+			@include desktop-med {
+				top: 4%;
+				width: 300px;
+			}
+			@include phone {
+				margin-left: 18px;
+				top: 0;
+				order: 1;
+				width: 269px;
+			}
+			h2 {
+				font-size: 42px;
+				font-family: UltraBeams;
+				@include desktop-med {
+					font-size: 34px;
+				}
+			}
+			p {
+				font-size: 18px;
+				font-family: 'AvenirNext-Regular';
+				margin-top: 50px;
+				line-height: 24px;
+				@include desktop-med {
+					margin-top: 20px;
+					font-size: 14px;
+				}
+				@include phone {
+					margin-top: 50px;
+				}
+				&:nth-child(n+3) {
+					margin-top: 40px;
+					@include desktop-med {
+						margin-top: 20px;
+					}
+					@include phone {
+						margin-top: 40px;
+					}
+				}
+			}
+		}
+	}
+}

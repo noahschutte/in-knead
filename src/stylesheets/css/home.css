@@ -1,0 +1,237 @@
+@font-face {
+  font-family: UltraBeams;
+  src: url("../../fonts/UltraBeams.ttf"); }
+body {
+  margin: 0; }
+
+#google-download {
+  margin-left: 20px; }
+
+.home-container {
+  background-color: #D0021B;
+  height: 650px; }
+  @media (max-width: 910px) {
+    .home-container {
+      height: 475px; } }
+  @media only screen and (max-device-width: 640px) {
+    .home-container {
+      height: 1029px;
+      min-width: 320px; } }
+  .home-container .home {
+    max-width: 1024px;
+    height: 650px;
+    margin: 0 auto; }
+    @media (max-width: 910px) {
+      .home-container .home {
+        height: 475px;
+        max-width: 768px; } }
+    @media only screen and (max-device-width: 640px) {
+      .home-container .home {
+        height: 1029px;
+        max-width: 640px; } }
+    .home-container .home .main-text {
+      display: inline-block;
+      position: relative;
+      float: left;
+      clear: left;
+      left: 42px;
+      top: 27%; }
+      @media (max-width: 910px) {
+        .home-container .home .main-text {
+          top: 18%; } }
+      @media only screen and (max-device-width: 640px) {
+        .home-container .home .main-text {
+          top: 12%;
+          left: 33px; } }
+      .home-container .home .main-text .headline {
+        width: 550px; }
+        @media (max-width: 910px) {
+          .home-container .home .main-text .headline {
+            width: 300px; } }
+        @media only screen and (max-device-width: 640px) {
+          .home-container .home .main-text .headline {
+            width: 280px; } }
+        .home-container .home .main-text .headline h1 {
+          color: white;
+          font-size: 56px;
+          font-family: UltraBeams;
+          margin: 0px 0px 15px 0px; }
+          @media (max-width: 910px) {
+            .home-container .home .main-text .headline h1 {
+              font-size: 44px; } }
+          @media only screen and (max-device-width: 640px) {
+            .home-container .home .main-text .headline h1 {
+              font-size: 44px; } }
+      .home-container .home .main-text .headline-info-temp {
+        width: 540px; }
+        @media (max-width: 910px) {
+          .home-container .home .main-text .headline-info-temp {
+            width: 300px; } }
+        @media only screen and (max-device-width: 640px) {
+          .home-container .home .main-text .headline-info-temp {
+            width: 260px; } }
+        .home-container .home .main-text .headline-info-temp h4 {
+          margin-top: 15px;
+          color: white;
+          font-size: 22px;
+          font-family: 'AvenirNext-Regular';
+          line-height: 24px; }
+          @media only screen and (max-device-width: 640px) {
+            .home-container .home .main-text .headline-info-temp h4 {
+              font-size: 18px; } }
+        .home-container .home .main-text .headline-info-temp p {
+          margin-top: 50px;
+          color: white;
+          font-size: 18px;
+          font-family: 'AvenirNext-Regular';
+          line-height: 24px; }
+          @media only screen and (max-device-width: 640px) {
+            .home-container .home .main-text .headline-info-temp p {
+              font-size: 14px; } }
+        @media (max-width: 910px) {
+          .home-container .home .main-text .headline-info-temp {
+            font-size: 12px; } }
+    .home-container .home .header-container {
+      position: relative;
+      top: 7%; }
+      .home-container .home .header-container .logo-container {
+        display: inline-block;
+        position: relative;
+        float: left;
+        left: 48px; }
+        @media only screen and (max-device-width: 640px) {
+          .home-container .home .header-container .logo-container {
+            left: 33px; } }
+        .home-container .home .header-container .logo-container .logo {
+          height: 50px; }
+          @media (max-width: 910px) {
+            .home-container .home .header-container .logo-container .logo {
+              height: 50px; } }
+          @media only screen and (max-device-width: 640px) {
+            .home-container .home .header-container .logo-container .logo {
+              height: 50px; } }
+      .home-container .home .header-container .social-container {
+        display: inline-block;
+        position: relative;
+        height: 36px;
+        float: right;
+        right: 48px; }
+        @media (max-width: 910px) {
+          .home-container .home .header-container .social-container {
+            height: 50px; } }
+        @media only screen and (max-device-width: 640px) {
+          .home-container .home .header-container .social-container {
+            display: none; } }
+        .home-container .home .header-container .social-container .social-icons {
+          margin: 0 0 0 28px;
+          height: 100%; }
+    .home-container .home .iphone-container {
+      position: relative;
+      float: right;
+      clear: right;
+      margin: 0 5% 0 0;
+      top: 17%;
+      width: 34%;
+      height: 75.3%;
+      overflow: hidden; }
+      @media (max-width: 910px) {
+        .home-container .home .iphone-container {
+          width: 235px;
+          margin: 0 6% 0 0;
+          top: 14%;
+          height: 75.4%; } }
+      @media only screen and (max-device-width: 640px) {
+        .home-container .home .iphone-container {
+          top: 22%;
+          float: none;
+          clear: none;
+          width: 310px;
+          margin: 0 auto;
+          height: 423px; } }
+    @media (max-width: 910px) {
+      .home-container .home .email-form-container {
+        margin-top: 30px; } }
+    .home-container .home .email-form-container .email-input::-webkit-input-placeholder {
+      color: white;
+      font-size: 16px;
+      font-family: 'AvenirNext-Regular'; }
+    .home-container .home .email-form-container .email-input {
+      background-color: #E67265;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+      padding: 10px 30px;
+      border: none;
+      line-height: 18px;
+      font-size: 16px;
+      color: white; }
+    .home-container .home .email-form-container .white-button {
+      background-color: white;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      border: none;
+      display: inline-block;
+      cursor: pointer;
+      color: #D0021B;
+      font-family: 'AvenirNext-Regular';
+      font-size: 16px;
+      padding: 10px 50px;
+      line-height: 18px;
+      text-decoration: none; }
+    .home-container .home .download-container {
+      margin-top: 22px; }
+      .home-container .home .download-container img {
+        height: 53px; }
+        @media (max-width: 910px) {
+          .home-container .home .download-container img {
+            height: 43px; } }
+        @media only screen and (max-device-width: 640px) {
+          .home-container .home .download-container img {
+            height: 53px; } }
+      @media (max-width: 910px) {
+        .home-container .home .download-container {
+          margin-top: 30px; } }
+      .home-container .home .download-container .demo-button {
+        background-color: white;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        border: none;
+        display: inline-block;
+        cursor: pointer;
+        color: #D0021B;
+        font-family: 'AvenirNext-Regular';
+        font-size: 16px;
+        text-decoration: none;
+        height: 34px;
+        width: 160px;
+        margin-left: 35px; }
+        @media only screen and (max-device-width: 640px) {
+          .home-container .home .download-container .demo-button {
+            display: block;
+            position: relative;
+            top: 22px;
+            left: -33px;
+            height: 38px;
+            width: 192px; } }
+      .home-container .home .download-container .learn-button {
+        background-color: #D0021B;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        border: 3px solid white;
+        display: inline-block;
+        cursor: pointer;
+        color: white;
+        font-family: 'AvenirNext-Regular';
+        font-size: 16px;
+        padding: 7px 56px;
+        text-decoration: none;
+        padding: 10px 40px; }
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0; }
+
+/*# sourceMappingURL=home.css.map */

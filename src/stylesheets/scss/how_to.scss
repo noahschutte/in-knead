@@ -1,0 +1,136 @@
+$desktop-med-width: 910px;
+$phone: 640px;
+
+@mixin desktop-med {
+	@media (max-width: #{$desktop-med-width}) {
+		@content;
+	}
+}
+@mixin phone {
+	@media only screen and (max-device-width: #{$phone}) {
+		@content;
+	}
+}
+
+.how-to-container{
+		height: 950px;
+		background-color: #D0021B;
+		@include desktop-med {
+			height: 650px;
+		}
+		@include phone {
+			height: 1400px;
+			min-width: 320px;
+		}
+	.how-to {
+		height: 950px;
+		margin: 0 auto;
+		max-width: 1024px;
+		overflow: hidden;
+		@include desktop-med {
+			height: 650px;
+		}
+		@include phone {
+			height: 1400px;
+		}
+
+		img {
+			width: 30%;
+			// margin: auto;
+			display: inline-block;
+			float: right;
+			// clear: right;
+			margin-top: 80px;
+			position: relative;
+			right: 68px;
+			@include desktop-med {
+				margin-top: 40px;
+			}
+			@include phone {
+				width: 80%;
+				text-align: center;
+				margin-top: 100px;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+				float: none;
+				right: 0;
+			}
+		}
+		.how-to-text-container {
+			// margin-top: 100px;
+			width: 44.5%;
+			margin: auto;
+			margin-top: 100px;
+			color: white;
+
+			@include desktop-med {
+				margin-top: 50px;
+				width: 60%;
+			}
+			@include phone {
+				width: 80%;
+				margin-top: 100px;
+			}
+			h2 {
+				font-family: UltraBeams;
+				font-size: 44px;
+			}
+			p {
+				margin-top: 28px;
+				font-size: 16px;
+				font-family: 'AvenirNext-Regular';
+				@include phone {
+					margin-top: 30px;
+				}
+			}
+		}
+		.steps-container {
+			display: inline-block;
+			color: white;
+			margin-top: 130px;
+			position: relative;
+			left: 68px;
+			@include desktop-med {
+				margin-top: 60px;
+			}
+			@include phone {
+				margin-top: 80px;
+				left: 33px;
+			}
+			.step-container {
+				margin-top: 50px;
+				@include desktop-med {
+					margin-top: 30px;
+				}
+				@include phone {
+					margin-top: 40px;
+				}
+				h2 {
+					font-family: UltraBeams;
+					font-size: 32px;
+					display: inline;
+					vertical-align: top;
+					@include desktop-med {
+						font-size: 28px;
+					}
+				}
+				p {
+					display: inline-block;
+					margin-top: 5px;
+					margin-left: 15px;
+					font-size: 18px;
+					font-family: 'AvenirNext-Regular';
+					width: 310px;
+					@include desktop-med {
+						font-size: 14px;
+						width: 260px;
+					}
+					@include phone {
+						width: 208px;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,104 @@
+.creators-container {
+  height: 970px;
+  background-color: #FAFAFA;
+  overflow: hidden; }
+  @media (max-width: 910px) {
+    .creators-container {
+      height: 710px; } }
+  @media only screen and (max-device-width: 640px) {
+    .creators-container {
+      height: 2080px;
+      min-width: 320px; } }
+  .creators-container .creators {
+    margin: 0 auto;
+    height: 970px;
+    max-width: 1024px; }
+    @media (max-width: 910px) {
+      .creators-container .creators {
+        height: 710px; } }
+    @media only screen and (max-device-width: 640px) {
+      .creators-container .creators {
+        height: 2080px; } }
+    .creators-container .creators h2 {
+      font-size: 44px;
+      font-family: UltraBeams;
+      margin-top: 100px; }
+      @media (max-width: 910px) {
+        .creators-container .creators h2 {
+          margin-top: 30px; } }
+      @media only screen and (max-device-width: 640px) {
+        .creators-container .creators h2 {
+          margin-top: 100px; } }
+    .creators-container .creators .staff-container {
+      text-align: center;
+      margin-top: 80px; }
+      @media (max-width: 910px) {
+        .creators-container .creators .staff-container {
+          margin-top: 80px; } }
+      @media only screen and (max-device-width: 640px) {
+        .creators-container .creators .staff-container {
+          margin-top: 85px; } }
+      .creators-container .creators .staff-container .individual {
+        display: inline-block;
+        height: 300px;
+        width: 190px;
+        margin: 20px 55px;
+        vertical-align: top; }
+        @media (max-width: 910px) {
+          .creators-container .creators .staff-container .individual {
+            margin: -10px 20px; } }
+        @media only screen and (max-device-width: 640px) {
+          .creators-container .creators .staff-container .individual {
+            margin-top: 15px;
+            margin-left: 100px;
+            margin-right: 100px; } }
+        .creators-container .creators .staff-container .individual .circle-base img {
+          width: 120px;
+          height: 120px;
+          margin: auto;
+          -moz-border-radius: 50%;
+          -webkit-border-radius: 50%;
+          border-radius: 50%;
+          background-size: contain; }
+          @media (max-width: 910px) {
+            .creators-container .creators .staff-container .individual .circle-base img {
+              width: 90px;
+              height: 90px; } }
+          @media only screen and (max-device-width: 640px) {
+            .creators-container .creators .staff-container .individual .circle-base img {
+              width: 120px;
+              height: 120px; } }
+        .creators-container .creators .staff-container .individual img {
+          margin: 0 10px;
+          margin-top: 16px;
+          height: 35px;
+          width: 35px; }
+          @media (max-width: 910px) {
+            .creators-container .creators .staff-container .individual img {
+              width: 30px;
+              height: 30px;
+              margin: 0 5px;
+              margin-top: 5px; } }
+        .creators-container .creators .staff-container .individual b p {
+          margin-top: 20px;
+          font-size: 20px;
+          font-family: 'AvenirNext-Regular'; }
+          @media (max-width: 910px) {
+            .creators-container .creators .staff-container .individual b p {
+              margin-top: 10px;
+              font-size: 16px; } }
+          @media only screen and (max-device-width: 640px) {
+            .creators-container .creators .staff-container .individual b p {
+              margin-top: 20px;
+              font-size: 20px; } }
+        .creators-container .creators .staff-container .individual p {
+          font-size: 16px;
+          font-family: 'AvenirNext-Regular'; }
+          @media (max-width: 910px) {
+            .creators-container .creators .staff-container .individual p {
+              font-size: 14px; } }
+          @media only screen and (max-device-width: 640px) {
+            .creators-container .creators .staff-container .individual p {
+              font-size: 16px; } }
+
+/*# sourceMappingURL=creators.css.map */

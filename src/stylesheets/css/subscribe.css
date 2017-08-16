@@ -1,0 +1,111 @@
+.subscribe {
+  background-color: black;
+  height: 465px;
+  border-bottom: 2px grey solid;
+  overflow: hidden; }
+  @media (max-width: 910px) {
+    .subscribe {
+      height: 250px; } }
+  @media only screen and (max-device-width: 640px) {
+    .subscribe {
+      height: 440px;
+      min-width: 320px; } }
+  .subscribe div {
+    margin-top: 35px;
+    text-align: center; }
+    @media (max-width: 910px) {
+      .subscribe div {
+        margin-top: 20px; } }
+    @media only screen and (max-device-width: 640px) {
+      .subscribe div {
+        margin-top: 30px; } }
+    .subscribe div img {
+      width: 45px; }
+      @media (max-width: 910px) {
+        .subscribe div img {
+          width: 30px; } }
+      @media only screen and (max-device-width: 640px) {
+        .subscribe div img {
+          width: 45px; } }
+    .subscribe div p {
+      color: white;
+      font-family: 'AvenirNext-Regular';
+      font-size: 16px;
+      margin-top: 40px; }
+      @media (max-width: 910px) {
+        .subscribe div p {
+          margin-top: 20px;
+          font-size: 14px; } }
+      @media only screen and (max-device-width: 640px) {
+        .subscribe div p {
+          margin-top: 30px; } }
+    .subscribe div .email-form-container {
+      margin-top: 20px; }
+      @media only screen and (max-device-width: 640px) {
+        .subscribe div .email-form-container {
+          margin-top: 40px; } }
+      .subscribe div .email-form-container .email-input::-webkit-input-placeholder {
+        color: #4A4A4A;
+        font-size: 16px;
+        font-family: 'AvenirNext-Regular';
+        opacity: .5;
+        text-indent: 20px; }
+        @media only screen and (max-device-width: 640px) {
+          .subscribe div .email-form-container .email-input::-webkit-input-placeholder {
+            font-size: 14px; } }
+      .subscribe div .email-form-container .email-input {
+        background-color: white;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        height: 50px;
+        width: 310px;
+        border: none;
+        font-family: 'AvenirNext-Regular';
+        font-size: 16px;
+        color: #4A4A4A;
+        text-indent: 20px; }
+        @media (max-width: 910px) {
+          .subscribe div .email-form-container .email-input {
+            width: 210px;
+            height: 35px;
+            font-size: 14px; } }
+        @media only screen and (max-device-width: 640px) {
+          .subscribe div .email-form-container .email-input {
+            width: 180px;
+            font-size: 12px; } }
+      .subscribe div .email-form-container .white-button {
+        background-color: #D0021B;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-family: 'AvenirNext-Regular';
+        font-size: 16px;
+        height: 50px;
+        width: 160px; }
+        @media (max-width: 910px) {
+          .subscribe div .email-form-container .white-button {
+            height: 35px;
+            width: 120px;
+            font-size: 14px; } }
+        @media only screen and (max-device-width: 640px) {
+          .subscribe div .email-form-container .white-button {
+            height: 35px;
+            width: 100px;
+            font-size: 12px; } }
+  .subscribe h2 {
+    color: white;
+    font-family: UltraBeams;
+    font-size: 44px;
+    margin-top: 100px; }
+    @media (max-width: 910px) {
+      .subscribe h2 {
+        margin-top: 30px;
+        font-size: 36px; } }
+    @media only screen and (max-device-width: 640px) {
+      .subscribe h2 {
+        margin-top: 100px;
+        font-size: 30px; } }
