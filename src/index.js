@@ -6,7 +6,6 @@ import Eula from './components/Eula';
 import PrivacyPolicy from './components/PrivacyPolicy';
 // import NotFound from './components/NotFound';
 import registerServiceWorker from './registerServiceWorker';
-import 'bootstrap/dist/css/bootstrap.css';
 import './stylesheets/css/home.css';
 import './stylesheets/css/platform.css';
 import './stylesheets/css/how_to.css';
