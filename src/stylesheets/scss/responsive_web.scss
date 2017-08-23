@@ -1,7 +1,6 @@
 @font-face {
   font-family: UltraBeams;
-  src: url('../../public/fonts/UltraBeams.ttf');
-}
+  src: url('../../public/fonts/UltraBeams.ttf'); }
 
 @media only screen and (max-width: 768px) {
 	.home-container{
@@ -23,8 +22,6 @@
 		}
 	}
 }
-
-
 
 @media (max-width: 480px) {
 	body {
@@ -57,7 +54,7 @@
 	}
 	.home {
 		height: 600px;
-	}	
+	}
 	.main-text{
 		position: relative;
 		left: 15%;
@@ -148,4 +145,3 @@
 		}
 	}
 }
-

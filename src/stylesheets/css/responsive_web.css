@@ -1,7 +1,7 @@
 @font-face {
   font-family: UltraBeams;
   src: url("../../public/fonts/UltraBeams.ttf"); }
-
+  
 @media only screen and (max-width: 768px) {
   .home-container .home .main-text {
     position: relative;
@@ -13,10 +13,10 @@
         color: white;
         font-size: 30px;
         margin: 0px 0px 20px 0px; } }
-
 @media (max-width: 480px) {
   body {
     background-color: blue; }
+
   .logo-container {
     position: relative;
     top: 3%;
@@ -24,6 +24,7 @@
     margin: 0 0 0 2%; }
     .logo-container .logo {
       height: 40px; }
+
   .social-container {
     position: relative;
     top: 3%;
@@ -37,8 +38,10 @@
     .social-container .share-icon {
       height: 100%;
       visibility: visible; }
+
   .home {
     height: 600px; }
+
   .main-text {
     position: relative;
     left: 15%;
@@ -57,16 +60,19 @@
         color: white;
         font-size: 14px;
         font-family: 'Roboto-regular', sans-serif; }
+
   .iphone-container {
     position: relative;
     float: right;
     margin: 0 19% 0 0;
     top: 9%;
     width: 62%; }
+
   .email-input::-webkit-input-placeholder {
     color: white;
     font-size: 12px;
     font-family: 'Roboto-Regular', sans-serif; }
+
   .email-input {
     background-color: #d27265;
     -moz-border-radius: 4px;
@@ -76,6 +82,7 @@
     border: none;
     font-size: 12px;
     color: white; }
+
   .white-button {
     background-color: white;
     -moz-border-radius: 3px;
@@ -89,6 +96,7 @@
     font-size: 12px;
     padding: 10px 50px;
     text-decoration: none; }
+
   .download-container {
     margin-top: 30px; }
     .download-container .learn-button {
@@ -107,3 +115,5 @@
       padding: 7px 56px;
       text-decoration: none;
       margin-left: 35px; } }
+
+/*# sourceMappingURL=responsive_web.css.map */
