@@ -29,7 +29,7 @@ export default class HowTo extends Component {
 				      <p>Complete the purchase, and wait for the thank you video!</p>
 				    </div>
 		      </div>
-		      <img alt="" src={'https://s3.amazonaws.com/in-knead/iphone_big.png'} className='img-responsive'/>
+		      <img alt="" src={'https://d2p3tmtweusf4h.cloudfront.net/iphone_big.png'} className='img-responsive'/>
 	      </div>
       </div>
     )

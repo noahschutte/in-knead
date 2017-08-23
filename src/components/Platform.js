@@ -10,7 +10,7 @@ export default class Platform extends Component {
         </p>
         <div className='food-icon-container'>
         	<div className='food-descrip-container'>
-	      		<img alt="" src={'https://s3.amazonaws.com/in-knead/icon_1%402x.png'} className='food-icon'/><br/>
+	      		<img alt="" src={'https://d2p3tmtweusf4h.cloudfront.net/icon_1%402x.png'} className='food-icon'/><br/>
 	      		<b><p>Who uses it?</p></b>
 	      		<p>
               Starving student? Aspiring philanthropist?
@@ -20,7 +20,7 @@ export default class Platform extends Component {
             </p>
       		</div>
       		<div className='food-descrip-container'>
-	      		<img alt="" src={'https://s3.amazonaws.com/in-knead/icon_2%402x.png'} className='food-icon'/><br/>
+	      		<img alt="" src={'https://d2p3tmtweusf4h.cloudfront.net/icon_2%402x.png'} className='food-icon'/><br/>
 	      		<b><p>What does it do?</p></b>
 	      		<p>
               By putting food on a person’s plate, in knead brings comfort and warmth to people’s lives in a visible,
@@ -29,7 +29,7 @@ export default class Platform extends Component {
             </p>
       		</div>
       		<div className='food-descrip-container'>
-	      		<img alt="" src={'https://s3.amazonaws.com/in-knead/icon_3%402x.png'} className='food-icon'/><br/>
+	      		<img alt="" src={'https://d2p3tmtweusf4h.cloudfront.net/icon_3%402x.png'} className='food-icon'/><br/>
 	      		<b><p>Why donate?</p></b>
 	      		<p>
               New parents struggling to make time for dinner.

@@ -4,7 +4,6 @@ import RequestDonate from './RequestDonate';
 import HowTo from './HowTo';
 import OneStep from './OneStep';
 import Creators from './Creators';
-// import Subscribe from './Subscribe';
 import Footer from './Footer';
 
 export default class Home extends Component {
@@ -15,7 +14,7 @@ export default class Home extends Component {
 					<div className="home">
 						<div className='header-container'>
 							<div className='logo-container'>
-								<img alt="" src='https://s3.amazonaws.com/in-knead/logo%402x.png' className='logo'/>
+								<img alt="" src='https://d2p3tmtweusf4h.cloudfront.net/logo%402x.png' className='logo'/>
 							</div>
 							{ /*
               <div className='social-container'>
@@ -39,16 +38,16 @@ export default class Home extends Component {
 							</div>
 							<div className='download-container'>
                 <a href="https://itunes.apple.com/us/app/in-knead/id1213173338" id='apple-download'>
-                  <img alt="Download on the App Store" src={'https://s3.amazonaws.com/in-knead/download_apple%402x.png'}/>
+                  <img alt="Download on the App Store" src={'https://d2p3tmtweusf4h.cloudfront.net/download_apple%402x.png'}/>
                 </a>
                 <a href='https://play.google.com/store/apps/details?id=com.buddyghee.inkneadapp&hl=en' id='google-download'>
-                  <img alt='Get it on Google Play' src={'https://s3.amazonaws.com/in-knead/download_google%402x.png'} />
+                  <img alt='Get it on Google Play' src={'https://d2p3tmtweusf4h.cloudfront.net/download_google%402x.png'} />
                 </a>
 							</div>
 						</div>
 
 						<div className="iphone-container">
-							<img alt="" src={'https://s3.amazonaws.com/in-knead/iphone_6_1%402x.png'} className='iphone img-responsive'/>
+							<img alt="" src={'https://d2p3tmtweusf4h.cloudfront.net/iphone_6_1%402x.png'} className='iphone img-responsive'/>
 						</div>
 
 					</div>

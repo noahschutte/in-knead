@@ -6,7 +6,7 @@ export default class OneStep extends Component {
       <div className='one-step-container'>
         <div className='one-step'>
           <div className='one-step-iphone-container'>
-    				<img alt="" src={'https://s3.amazonaws.com/in-knead/iphone_6_request%402x.png'} className='img-responsive'/>
+    				<img alt="" src={'https://d2p3tmtweusf4h.cloudfront.net/iphone_6_request%402x.png'} className='img-responsive'/>
     			</div>
           <div className='one-step-text-container'>
           	<h2 className='text-uppercase text-center'>One step to request</h2>

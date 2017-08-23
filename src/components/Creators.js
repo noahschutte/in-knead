@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-const linkedinIcon = 'https://s3.amazonaws.com/in-knead/icon_linkedin%402x.png'
-const githubIcon = 'https://s3.amazonaws.com/in-knead/icon_github%402x.png'
+const linkedinIcon = 'https://d2p3tmtweusf4h.cloudfront.net/icon_linkedin%402x.png'
+const githubIcon = 'https://d2p3tmtweusf4h.cloudfront.net/icon_github%402x.png'
 
 export default class Home extends Component {
   render() {
@@ -12,7 +12,7 @@ export default class Home extends Component {
 		      	<div className='staff-container'>
               <div className='individual'>
                 <div className='circle-base'>
-                  <img alt="" src={'https://s3.amazonaws.com/in-knead/Noah.jpg'}/>
+                  <img alt="" src={'https://d2p3tmtweusf4h.cloudfront.net/Noah.jpg'}/>
                 </div>
                 <b><p>Noah</p></b>
                 <p>Software Engineer</p>
@@ -25,7 +25,7 @@ export default class Home extends Component {
               </div>
               <div className='individual'>
                 <div className='circle-base'>
-                  <img alt="" src={'https://s3.amazonaws.com/in-knead/Jameson.jpg'}/>
+                  <img alt="" src={'https://d2p3tmtweusf4h.cloudfront.net/Jameson.jpg'}/>
                 </div>
                 <b><p>Jameson</p></b>
                 <p>Software Engineer</p>
@@ -38,7 +38,7 @@ export default class Home extends Component {
               </div>
 		      		<div className='individual'>
                 <div className='circle-base'>
-                  <img alt="" src={'https://s3.amazonaws.com/in-knead/Koty.jpg'}/>
+                  <img alt="" src={'https://d2p3tmtweusf4h.cloudfront.net/Koty.jpg'}/>
                 </div>
 			      		<b><p>Koty</p></b>
 			      		<p>Software Engineer</p>
@@ -51,7 +51,7 @@ export default class Home extends Component {
               </div>
               <div className='individual'>
                 <div className='circle-base'>
-                  <img alt="" src={'https://s3.amazonaws.com/in-knead/Kristi.jpg'}/>
+                  <img alt="" src={'https://d2p3tmtweusf4h.cloudfront.net/Kristi.jpg'}/>
                 </div>
                 <b><p>Kristi</p></b>
                 <p>Designer</p>
@@ -61,7 +61,7 @@ export default class Home extends Component {
               </div>
               <div className='individual'>
                 <div className='circle-base'>
-                  <img alt="" src={'https://s3.amazonaws.com/in-knead/Susan.jpg'}/>
+                  <img alt="" src={'https://d2p3tmtweusf4h.cloudfront.net/Susan.jpg'}/>
                 </div>
                 <b><p>Susan</p></b>
                 <p>Designer</p>
@@ -71,7 +71,7 @@ export default class Home extends Component {
               </div>
               <div className='individual'>
                 <div className='circle-base'>
-                  <img alt="" src={'https://s3.amazonaws.com/in-knead/Lisi.jpg'}/>
+                  <img alt="" src={'https://d2p3tmtweusf4h.cloudfront.net/Lisi.jpg'}/>
                 </div>
                 <b><p>Lisi</p></b>
                 <p>Investor</p>
