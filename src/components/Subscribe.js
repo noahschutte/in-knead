@@ -10,7 +10,6 @@ export default class Subscribe extends Component {
 			status: null,
 			returnMessage: ''
 		};
-
 		this.handleChange = this.handleChange.bind(this);
 		this.handleSubmit = this.handleSubmit.bind(this);
 	}
