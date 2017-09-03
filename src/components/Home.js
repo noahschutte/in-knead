@@ -47,7 +47,7 @@ export default class Home extends Component {
 						</div>
 
 						<div className="iphone-container">
-							<img alt="" src={'https://d2p3tmtweusf4h.cloudfront.net/iphone_6_1%402x.png'} className='iphone img-responsive'/>
+							<img alt="" src={'https://d2p3tmtweusf4h.cloudfront.net/thanks.png'} className='iphone img-responsive'/>
 						</div>
 
 					</div>
