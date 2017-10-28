@@ -54,7 +54,7 @@ export default class Home extends Component {
                   <img alt="" src={'https://d2p3tmtweusf4h.cloudfront.net/Kristi.jpg'}/>
                 </div>
                 <b><p>Kristi</p></b>
-                <p>Designer</p>
+                <p>Lead Product Designer (UX/UI)</p>
                 <a href="https://www.linkedin.com/in/kristi-choi-4ab05091/">
                   <img alt="" src={linkedinIcon}/>
                 </a>
