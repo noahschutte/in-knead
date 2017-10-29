@@ -64,7 +64,7 @@ export default class Home extends Component {
                   <img alt="" src={'https://d2p3tmtweusf4h.cloudfront.net/Susan.jpg'}/>
                 </div>
                 <b><p>Susan</p></b>
-                <p>Designer</p>
+                <p>Designer</p><br/>
                 <a href="https://www.linkedin.com/in/shuyulin105/">
                   <img alt="" src={linkedinIcon}/>
                 </a>
@@ -74,7 +74,7 @@ export default class Home extends Component {
                   <img alt="" src={'https://d2p3tmtweusf4h.cloudfront.net/Lisi.jpg'}/>
                 </div>
                 <b><p>Lisi</p></b>
-                <p>Investor</p>
+                <p>Investor</p><br/>
                 <a href="https://www.linkedin.com/in/lisipeng/">
                   <img alt="" src={linkedinIcon}/>
                 </a>
